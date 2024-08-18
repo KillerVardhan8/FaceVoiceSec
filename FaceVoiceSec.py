@@ -12,8 +12,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Load images of the owner and other individuals
-owner_image = face_recognition.load_image_file(r"C:\Users\surya\AppData\Local\Programs\Python\Python310\Python Programs\FaceVoiceSec\DSC_0250 copy1.jpg")
-other_image = face_recognition.load_image_file(r"C:\Users\surya\AppData\Local\Programs\Python\Python310\Python Programs\FaceVoiceSec\IMG20220318232730.jpg")
+owner_image = face_recognition.load_image_file(r"#insert the path of the image(.jpg)")
+other_image = face_recognition.load_image_file(r"#insert the path of the image(.jpg)")
 
 # Encode face features
 owner_encoding = face_recognition.face_encodings(owner_image)[0]
@@ -70,7 +70,7 @@ def speak_text(text):
 
 def play_alarm_sound():
     global alarm_triggered
-    pygame.mixer.music.load(r'C:\Users\surya\AppData\Local\Programs\Python\Python310\Python Programs\FaceVoiceSec\mixkit-facility-alarm-sound-999.wav')
+    pygame.mixer.music.load(r'#insert alarm sound(.wav')
     pygame.mixer.music.play(-1)  # Play in a loop
     while alarm_triggered:
         print("Listening for password...")
