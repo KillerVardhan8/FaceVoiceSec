@@ -19,21 +19,12 @@ A security system that combines facial and voice recognition technologies to enh
 
 
 - face_recognition
-
 - cv2 (OpenCV)
-  
 - numpy
-
 - threading
-
 - pygame
-
 - os
-
 - speech_recognition
-
 - pyttsx3
-
 - smtplib
-
 - MIMEText, MIMEMultipart
