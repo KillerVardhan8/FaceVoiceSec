@@ -18,7 +18,11 @@ A security system that combines facial and voice recognition technologies to enh
 ## Overview of the key Python modules and libraries used in the project:
 
 
-- face_recognition      - cv2 (OpenCV)      - numpy
+- face_recognition
+
+- cv2 (OpenCV)
+  
+- numpy
 
 - threading
 
